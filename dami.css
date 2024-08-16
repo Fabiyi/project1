@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito Sans", sans-serif;
+    background-color: #f3e6d8;
+    height: 100vh;
+}
+.card{
+    background-color: #fff;
+    width: 600px;
+    /* height: 350px; */
+    height: fit-content; 
+    border-radius: 10px;
+    /* Using margin: auto to center a div */
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 30px ;
+    /* Abeg no touch this code */
+    /* margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 200px; */
+
+    /* margin: 200px; */
+    /* margin: 200px 150px 200px 150px; */
+}
+/* ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* border-width: 5px;
+    border-style: dashed;
+    border-color: blue; */
+ /* border: 2px solid blue;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.imgCtn{
+    width: 540px;
+    border-radius: 10px;
+}
+.imgCtn img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.description h1{
+    color: #444;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 20px 0 10px;
+}
+.description p{
+    font-size: 14px;
+}
+h2{
+    margin-top: 10px;
+}
+.two {
+    width: 450px;
+    padding: 2px;
+    text-align: left;
+    background-color: #f3e6d8;
+}
+.two ul{
+    margin-top: 10px;
+    padding: 10px 0 10px;
+    font-size: 16px;
+}
+.two ul li{
+    list-style-position: inside;
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 10px;
+}
+.Ingredients{
+        margin: 20px 0 20px;
+}
+.Ingredients ul{
+    margin: 20px;
+}
+.Ingredients ul li{
+    list-style-position: inside;
+    margin: 10px;
+}
+h3{
+    font-size: 20px;
+    margin: 10px;
+}
+.Instructions{
+        margin: 20px 0 20px;
+}
+.Instructions ol{
+    padding: 10px 0 10px;
+}
+.Instructions ol li{
+    list-style-position: inside;
+    margin: 10px;
+}
+.five{
+    margin: 20px 0 20px;
+}
+.five h3{
+    margin: 10px;
+}
+.five p{
+    font-size: 16px;
+}
+div {
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 12px auto;
+    padding: 8px 12px;
+}
+.seven{
+    display: flex;
+    width: 450px;
+    padding: 2px;
+    text-align: left;
+}
