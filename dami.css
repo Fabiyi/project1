@@ -14,37 +14,14 @@ body{
 .card{
     background-color: #fff;
     width: 600px;
-    /* height: 350px; */
     height: fit-content; 
     border-radius: 10px;
-    /* Using margin: auto to center a div */
     margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 50px 30px ;
-    /* Abeg no touch this code */
-    /* margin-left: 200px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-right: 200px; */
-
-    /* margin: 200px; */
-    /* margin: 200px 150px 200px 150px; */
 }
-/* ul{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    /* border-width: 5px;
-    border-style: dashed;
-    border-color: blue; */
- /* border: 2px solid blue;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-} */
-
 .imgCtn{
     width: 540px;
     border-radius: 10px;
@@ -58,30 +35,29 @@ body{
     color: #444;
     font-size: 32px;
     font-weight: 800;
-    margin: 20px 0 10px;
+    text-align: left;
 }
 .description p{
     font-size: 14px;
 }
 h2{
     margin-top: 10px;
+    color: darkred;
 }
 .two {
-    width: 450px;
-    padding: 2px;
+    width: 520px; 
     text-align: left;
     background-color: #f3e6d8;
 }
 .two ul{
-    margin-top: 10px;
-    padding: 10px 0 10px;
-    font-size: 16px;
+       font-size: 16px;
+       padding:0 8px;
 }
 .two ul li{
     list-style-position: inside;
-    font-size: 14px;
-    padding-left: 10px;
-    margin: 10px;
+    font-size: 16px;
+    padding: 2px 10px;
+    margin: 6px;
 }
 .Ingredients{
         margin: 20px 0 20px;
@@ -91,30 +67,34 @@ h2{
 }
 .Ingredients ul li{
     list-style-position: inside;
-    margin: 10px;
+    margin: 8px;
 }
 h3{
     font-size: 20px;
     margin: 10px;
+    color: darkred;
+    padding-left: 30px;
 }
 .Instructions{
-        margin: 20px 0 20px;
+        margin:0 15px;
+        padding-left: 30px;
 }
 .Instructions ol{
-    padding: 10px 0 10px;
+    padding: 10px;
 }
 .Instructions ol li{
     list-style-position: inside;
-    margin: 10px;
 }
 .five{
     margin: 20px 0 20px;
 }
 .five h3{
     margin: 10px;
+    color: darkred;
 }
 .five p{
     font-size: 16px;
+    padding-left: 40px;
 }
 div {
     width: 500px;
